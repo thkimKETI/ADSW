@@ -33,6 +33,8 @@
    python detect.py --weights yolov7.pt --conf 0.25 --imag-size --source infernce/image3.jpg
    ```
 
-3. Validation
+2. Data Preparation
+   ```ruby
+   ```
 4. Demo
 5. ONNX Transform
