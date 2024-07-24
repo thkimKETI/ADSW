@@ -9,11 +9,7 @@
    ```
    ```ruby
    sudo apt-get update
-   ```
-   ```ruby
    sudo apt-get install -y nvidia-docker2
-   ```
-   ```ruby
    sudo systemctl restart docker 
    ```
    1.2 YOLOv7 Container 생성
