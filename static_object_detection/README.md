@@ -40,7 +40,7 @@
    ```
    2.2 AI-hub 라벨링 형식 변경 (AI-Hub -> YOLOtxt
    ```ruby
-   python AI_hub_to_YOLOtxt.py
+   python aihub_to_yolotxt.py
    ```
 4. Demo
 5. ONNX Transform
