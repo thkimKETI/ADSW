@@ -17,32 +17,31 @@
    sudo systemctl restart docker 
    ```
 1.2 YOLOv7 Container 생성
-```ruby
-git clone https://github.com/WongKinYiu/yolov7.git
-```
-```ruby
-sudo nvidia-docker run --name yolov7 -v /home/keti/tkim/yolov7/:/yolov7/ -v /data/AD2/AD_2023_0210ver/:/yolov7/AD2_DB/ -it --shm-size=64g nvcr.io/nvidia/pytorch:21.08-py3
-```
-```ruby
-apt update
-```
-```ruby
-apt install -y zip htop screen libgl1-mesa-glx
-```
-```ruby
-pip install seaborn thop
-```
-```ruby
-cd /yolov7
-```
-
+   ```ruby
+   git clone https://github.com/WongKinYiu/yolov7.git
+   ```
+   ```ruby
+   sudo nvidia-docker run --name yolov7 -v /home/keti/tkim/yolov7/:/yolov7/ -v /data/AD2/AD_2023_0210ver/:/yolov7/AD2_DB/ -it --shm-size=64g nvcr.io/nvidia/pytorch:21.08-py3
+   ```
+   ```ruby
+   apt update
+   ```
+   ```ruby
+   apt install -y zip htop screen libgl1-mesa-glx
+   ```
+   ```ruby
+   pip install seaborn thop
+   ```
+   ```ruby
+   cd /yolov7
+   ```
 1.3 YOLOv7 설치 확인 
-```ruby
-wget https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt
-```
-```ruby
-python detect.py --weights yolov7.pt --conf 0.25 --imag-size --source infernce/image3.jpg
-```
+   ```ruby
+   wget https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt
+   ```
+   ```ruby
+   python detect.py --weights yolov7.pt --conf 0.25 --imag-size --source infernce/image3.jpg
+   ```
 
 3. Validation
 4. Demo
