@@ -25,17 +25,11 @@
    ```
    ```ruby
    apt update
-   ```
-   ```ruby
    apt install -y zip htop screen libgl1-mesa-glx
-   ```
-   ```ruby
    pip install seaborn thop
-   ```
-   ```ruby
    cd /yolov7
    ```
-1.3 YOLOv7 설치 확인 
+   1.3 YOLOv7 설치 확인 
    ```ruby
    wget https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt
    ```
