@@ -1,8 +1,7 @@
 # Description
-1. Installation
-
-   
-1.1 Nvidia-Docker Installation
+1. Nvidia-Docker 환경 구성 및 YOLOv7 설치
+    
+1.1 Nvidia-Docker 설치
    ```ruby
    distribution=$(. /etc/os-release;echo $ID$VERSION_ID) \
    && curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add - \
@@ -14,8 +13,7 @@
 
    sudo systemctl restart docker 
    ```
-
-1.2 Nvidia-Docker Container 
+1.2 YOLOv7 Container 생성
 ```ruby
 git clone https://github.com/WongKinYiu/yolov7.git
 
