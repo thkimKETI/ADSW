@@ -34,7 +34,10 @@
    ```
 
 2. Data Preparation
+2.1 AI-hub, 신호등/도로표지판 인지 영상(수도권) 활용: https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=188
+   2.2 AI-hub 라벨링 형식 변경 (AI-Hub -> YOLOtxt
    ```ruby
+   python AI_hub_to_YOLOtxt.py
    ```
 4. Demo
 5. ONNX Transform
