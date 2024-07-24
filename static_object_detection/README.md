@@ -39,7 +39,7 @@
    ```ruby
    https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=188
    ```
-   2.2 AI-hub 라벨링 형식 변경 (AI-Hub -> YOLOtxt
+   2.2 AI-hub 라벨링 형식 변경 (AI-Hub(Pascal-VOC-XML) -> YOLOtxt)
    ```ruby
    python aihub_to_yolotxt.py
    ```
