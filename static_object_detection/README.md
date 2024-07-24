@@ -16,7 +16,7 @@
    ```ruby
    sudo systemctl restart docker 
    ```
-1.2 YOLOv7 Container 생성
+   1.2 YOLOv7 Container 생성
    ```ruby
    git clone https://github.com/WongKinYiu/yolov7.git
    ```
