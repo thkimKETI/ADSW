@@ -36,6 +36,14 @@ pip install seaborn thop
 cd /yolov7
 ```
 
+1.3 YOLOv7 설치 확인 
+```ruby
+wget https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt
+```
+```ruby
+python detect.py --weights yolov7.pt --conf 0.25 --imag-size --source infernce/image3.jpg
+```
+
 3. Validation
 4. Demo
 5. ONNX Transform
