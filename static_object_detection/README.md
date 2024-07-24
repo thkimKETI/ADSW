@@ -7,16 +7,13 @@
    && curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add - \
    && curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
    ```
-
-    ```ruby
+   ```ruby
    sudo apt-get update
    ```
-
    ```ruby
    sudo apt-get install -y nvidia-docker2
    ```
-
-    ```ruby
+   ```ruby
    sudo systemctl restart docker 
    ```
 1.2 YOLOv7 Container 생성
