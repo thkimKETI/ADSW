@@ -1,0 +1,3 @@
+# ninja log v5
+0	13344	1712909366184572364	/home/keti/Ultra-Fast-Lane-Detection-V2/my_interp/build/temp.linux-x86_64-3.8/my_interp_cuda.o	586a29cf1d1da618
+1	91587	1712909444423589857	/home/keti/Ultra-Fast-Lane-Detection-V2/my_interp/build/temp.linux-x86_64-3.8/my_interp_cuda_kernel.o	ae96ab661c6b822f
